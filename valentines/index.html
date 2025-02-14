@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Valentine's Day</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffe6e6;
+}
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(assets/imgs/img7.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  height: 100vh;
+}
+.home .title {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+.home .text {
+  font-size: 1.5em;
+  margin: 0;
+}
+.photos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.card:hover .photo {
+  transform: scale(1.1);
+}
+.imgtext {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-size: 1em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  background-color: #ffcccc;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+  margin: 0;
+  color: #ff0066;
+  font-size: 1.2em;
+}
+.memories-title {
+  text-align: center;
+  font-size: 2em;
+  color: #ff0066;
+  margin: 20px 0;
+}
+
+@media (max-width: 600px) {
+  .home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+      url(assets/imgs/img5.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 10px;
+    height: 50vh;
+  }
+
+  .home .title {
+    font-size: 2em;
+  }
+
+  .home .text {
+    font-size: 1em;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+  }
+
+  .photo {
+    height: auto;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="home">
+      <h1 class="title">Happy Valentine's day farfora</h1>
+      <p class="text">
+        I love you more than anything in this world. You are the best thing that
+        ever happened to me. I am so lucky to have you in my life. I love you so
+        much. Happy Valentine's day my love.
+      </p>
+    </div>
+    <to class="memories-title">to more and more memories</h2>
+    <div class="photos">
+      <div class="card">
+        <img src="assets/imgs/img1.jpeg" alt="Photo 1" class="photo" />
+        <p class="imgtext">most beautiful</p>
+      </div>
+      <div class="card">
+        <img src="assets/imgs/img2.jpeg" alt="Photo 2" class="photo" />
+        <p class="imgtext">proudest momment</p>
+      </div>
+      <div class="card">
+        <img src="assets/imgs/img3.jpeg" alt="Photo 3" class="photo" />
+        <p class="imgtext">more and more new years </p>
+      </div>
+      <div class="card">
+        <img src="assets/imgs/img4.jpeg" alt="Photo 4" class="photo" />
+        <p class="imgtext">taking the best selfies</p>
+      </div>
+      <div class="card">
+        <img src="assets/imgs/img5.jpeg" alt="Photo 4" class="photo" />
+        <p class="imgtext">celebrating your birthday</p>
+      </div>
+      <div class="card">
+        <img src="assets/imgs/img6.jpeg" alt="Photo 4" class="photo" />
+        <p class="imgtext">ur friends photos>>></p>
+      </div>
+      <div class="card">
+        <img src="assets/imgs/img7.jpeg" alt="Photo 4" class="photo" />
+        <p class="imgtext">being the funniest</p>
+      </div>
+    </div>
+<footer>
+      <p>With all my love, omar</p>
+    </footer>
+  </body>
+</html>
